@@ -1,0 +1,117 @@
+<!doctype html>
+<html lang="pt-br">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- Boostrap CDN -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+    <!-- fontawesome link -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css">
+    <title>Login</title>
+    <style>
+ 
+      .login{
+          background-color: white;
+          height:100vh;
+      }
+      
+      .main-text-color {
+        color: #0284DE;  
+      }
+
+      .noticia{
+        background-color: #0284DE;
+        height:100vh;
+      }
+
+     .form-input{
+
+	      width: 100%;
+	      border:0px solid transparent;
+	      border-radius: 0;
+	      border-bottom: 1px solid #aaa;
+	      padding: 1em .5em .5em;
+	      padding-left: 2em;
+	      outline:none;
+	      margin:1.5em auto;
+	      transition: all .5s ease; 
+        font-size: large;
+        font-family: 'Font Awesome 5 Free'; 
+        font-weight: 700; 
+        color: rgba(1, 49, 49, 0.4);
+      }
+
+      .form-input:focus{
+      	border-bottom-color: #0284DE;
+        color: #0284DE; 
+      	box-shadow: 0 0 6px rgba(0,80,80,.4); 
+      	border-radius: 4px;
+      }
+      .btn{
+        
+      	transition: all .5s ease;
+      	width: 70%;
+      	border-radius: 30px;
+      	color:#0284DE;
+      	font-weight: 600;
+      	background-color: #fff;
+      	border: 1px solid #0284DE;
+      	margin-top: 1.5em;
+      	margin-bottom: 1em;
+      }
+      .btn:hover, .btn:focus{
+      	background-color: #0284DE;
+      	color:#fff;
+      }
+
+    </style>
+  </head>
+  <body>
+    
+    <div class="container-fluid">
+
+        <div class="row">
+            
+        <div  class="col-md-6 noticia" >
+            
+        </div>
+        
+        <div class="col-md-6 login" >
+            
+            <div class="row mt-5">
+              <div class="mt-5">
+                <h1 class="text-center main-text-color">Login</h1>    
+              </div>
+            </div>
+
+            <form control="" class="form-group" >
+            <div class="row mx-5">
+
+                <input type="text" class="form-control form-input" name="usuario" id="usuario" placeholder=" &#xf007;   Usu&aacute;rio">
+                
+            </div>
+            <div class="row mx-5">
+                <input  type="text" class="form-control form-input" name="senha"  id="senha" placeholder=" &#xf023;   Senha">                
+            </div>
+            
+            <div class="row justify-content-center mx-5">
+                <input type="submit" value="Entrar" class="btn">
+            </div>
+        </form>
+
+        <div class="d-flex justify-content-center mx-5">
+          <span class="main-text-color"><a href="#" class="px-2 main-text-color">Esqueci minha Senha</a> | <a href="#" class="px-2 main-text-color">Esqueci meu usu&aacute;rio</a></span>
+        </div>
+        </div>
+        </div>
+
+    </div>
+
+    <!-- Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+  </body>
+</html>
