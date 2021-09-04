@@ -72,7 +72,7 @@ $clientSecret = Registry::get('app.config')->get('api.client.secret');
       <div class="col-md-6 login">
         <div class="row">
           <div>
-            <img class="rounded mx-auto d-block mt-3 bg-site" src="imagens/digitaleducar_logo-white.png" style="color: #0284DE;" width="250">
+            <img class="rounded mx-auto d-block mt-3 " src="imagens/digitaleducar_logo.png" style="color: #0284DE;" width="250">
           </div>
         </div>
         <div class="row mx-5">
@@ -136,17 +136,14 @@ $clientSecret = Registry::get('app.config')->get('api.client.secret');
 
         <div class="row mx-5">
           <div class="link-acesso">
-            <?php echo ($lMostraLinkPrimeiroAcesso ? '<a href="primeiroAcesso.php">Primeiro acesso</a>' : ''); ?>
+           <?php echo ($lMostraLinkPrimeiroAcesso ? '<a href="primeiroAcesso.php"></a>' : ''); ?>
           </div>
           <span id="testaLogin"></span>
 
 
-          <p class="text-center"><a href="http://www.dbseller.com.br">www.dbseller.com.br</a></p>
-          <p class="text-center">Porto Alegre RS/Brasil</p>
+          <p class="text-center"><a href="http://www.digitaleducar.com.br">www.digitaleducar.com.br</a></p>
+          <p class="text-center"></p>
           <div class="d-flex justify-content-center">
-            <a href="http://twitter.com/#!/DBSeller" target="_blank" title="Siga-nos no Twitter" class="icon-twitter">
-              <img src="imagens/ecidade/login/icon_twitter.png"></a>
-            <a href="http://www.facebook.com/pages/DBSeller-Sistemas-Integrados/168429383219644" target="_blank" title="Conheça nossa página no Facebook"><img src="imagens/ecidade/login/icon_facebook.png"></a>
           </div>
         </div>
       </div>
